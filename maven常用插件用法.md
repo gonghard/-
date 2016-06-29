@@ -41,7 +41,7 @@ maven 常用插件用法
 					<artifactId>maven-war-plugin</artifactId>
 					<version>2.1.1</version>
 					<configuration>
-						<warName>sosino-ximilo-server</warName>
+						<warName>test</warName>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 						<packagingExcludes>WEB-INF/web.xml</packagingExcludes>
 					</configuration>
@@ -130,7 +130,7 @@ maven 常用插件用法
 					<classesDirectory>target/classes/</classesDirectory>
 					<archive>
 						<manifest>
-							<mainClass>com.sosino.container.SosinoMain</mainClass>
+							<mainClass>com.test.container.TestMain</mainClass>
 							<!-- 打包时 MANIFEST.MF文件不记录的时间戳版本 -->
 							<useUniqueVersions>false</useUniqueVersions>
 							<addClasspath>true</addClasspath>
